@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using System.Windows.Forms;
 
-namespace Thread_Post_Parser
+namespace d2jsp_Roll_Call
 {
     public partial class Main : Form
     {

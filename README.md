@@ -1,4 +1,4 @@
-# Thread Post Parser Unique Names
+# d2jsp Roll Call
 
 A small Windows desktop app that walks a [d2jsp](https://forums.d2jsp.org) forum topic from start to
 finish, collects every post, and writes out who posted — deduplicated, in thread order.

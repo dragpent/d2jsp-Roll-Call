@@ -2,7 +2,7 @@ using System.Text.Json;
 using Microsoft.Web.WebView2.Core;
 using Microsoft.Web.WebView2.WinForms;
 
-namespace Thread_Post_Parser
+namespace d2jsp_Roll_Call
 {
     /// <summary>
     /// Fetches topic pages through an embedded Chromium (WebView2).
@@ -21,7 +21,7 @@ namespace Thread_Post_Parser
 
         private static string ProfileDir => Path.Combine(
             Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
-            "ThreadPostParser", "WebView2");
+            "d2jsp Roll Call", "WebView2");
 
         public BrowserPageSource()
         {

@@ -2,7 +2,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
 
-namespace Thread_Post_Parser
+namespace d2jsp_Roll_Call
 {
     /// <summary>
     /// Remembers the pasted cookie between runs. The cookie is a live session credential,
@@ -16,7 +16,7 @@ namespace Thread_Post_Parser
 
         private static string FilePath => Path.Combine(
             Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
-            "ThreadPostParser", "settings.json");
+            "d2jsp Roll Call", "settings.json");
 
         public static Settings Load()
         {

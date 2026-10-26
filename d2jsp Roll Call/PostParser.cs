@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using HtmlDocument = HtmlAgilityPack.HtmlDocument;
 
-namespace Thread_Post_Parser
+namespace d2jsp_Roll_Call
 {
     /// <summary>
     /// Everything that knows how to read a d2jsp topic page.

@@ -1,4 +1,4 @@
-﻿namespace Thread_Post_Parser
+﻿namespace d2jsp_Roll_Call
 {
     partial class Main
     {
@@ -189,7 +189,7 @@
             Controls.Add(lbUrl);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Main";
-            Text = "Thread Parser";
+            Text = "d2jsp Roll Call";
             ((System.ComponentModel.ISupportInitialize)dgData).EndInit();
             ResumeLayout(false);
             PerformLayout();
